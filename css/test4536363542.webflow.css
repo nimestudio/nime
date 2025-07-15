@@ -249,10 +249,14 @@ a {
   display: flex;
 }
 
-.div-block-2 {
+.temp-content-wrap {
   flex-flow: column;
   min-height: 100svh;
   display: flex;
+}
+
+.bg-image-mobile {
+  display: none;
 }
 
 @media screen and (min-width: 1280px) {
@@ -298,6 +302,10 @@ a {
     font-size: 3.25rem;
   }
 
+  .bg-image {
+    display: none;
+  }
+
   .temp-container {
     grid-column-gap: 6rem;
     grid-row-gap: 6rem;
@@ -319,6 +327,11 @@ a {
 
   .heading-3 {
     font-size: 3rem;
+  }
+
+  .bg-image-mobile {
+    width: 100vw;
+    display: block;
   }
 }
 
@@ -347,6 +360,11 @@ a {
     padding-top: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .bg-image-mobile {
+    position: absolute;
+    inset: 0% 0% auto;
   }
 }
 
