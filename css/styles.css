@@ -272,7 +272,7 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .txt-logo, .text-xs, .temp-project-links {
+  .txt-logo, .temp-project-links {
     font-size: 1rem;
   }
 
